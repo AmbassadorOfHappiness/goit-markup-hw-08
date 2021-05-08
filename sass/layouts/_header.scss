@@ -1,0 +1,38 @@
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    border: 1px solid #ececec;
+    background: var(--white-text-color);
+}
+
+.header__container {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 0px;
+
+    @media screen and (min-width: 768px) {
+        margin-right: 88px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+    }
+}
+
+.header__lable {
+    color: var(--logo-color);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
