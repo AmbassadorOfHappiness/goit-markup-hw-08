@@ -1,9 +1,6 @@
 .subscribe {
     padding-top: 20px;
 
-    /*     @media screen and (min-width: 768px) {
-        display: none;
-    } */
     @media screen and (min-width: 1200px) {
         display: inline-flex;
     }
@@ -17,22 +14,6 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    /* 
-    @media screen and (min-width: 320px) {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-    }
-
-    @media screen and (min-width: 768px) {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-    } */
 
     @media screen and (min-width: 1200px) {
         margin-left: 10px;
@@ -45,6 +26,7 @@
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 15px;
+    margin-bottom: 20px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
@@ -54,12 +36,7 @@
     line-height: 1.25;
     color: var(--footer-text-color);
 
-    @media (min-width: 320px) {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 479.98px) {
         width: 100%;
         margin-bottom: 20px;
     }

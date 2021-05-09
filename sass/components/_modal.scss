@@ -22,13 +22,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    max-width: 528px;
-    min-height: 581px;
+    max-width: 450px;
+    min-height: 609px;
     border-radius: 4px;
     background-color: var(--white-text-color);
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (min-width: 1200px) {
+        max-width: 528px;
+        min-height: 581px;
+    }
 }
 
 .modal__btn-close {
